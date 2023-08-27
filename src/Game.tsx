@@ -41,7 +41,11 @@ const Question = ({ info }: { info: QuestionType }) => {
       <List sx={{ bgcolor: '#333' }} disablePadding>
         {info.answers?.map((answer, index) => (
             <ListItem key={index} disablePadding divider>
-              <ListItemButton onClick={() => {createHandleClick(index)}} sx={{ backgroundColor: getBackgroundColor(index) }}>
+              <ListItemButton
+                disabled={info.userSelectedAnswer != null}
+                onClick={() => {createHandleClick(index)}}
+                sx={{ backgroundColor: getBackgroundColor(index) }}
+              >
                 <ListItemText primary={answer} sx={{ textAlign: 'center' }} />
               </ListItemButton>
             </ListItem>

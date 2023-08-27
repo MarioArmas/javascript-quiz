@@ -11,8 +11,10 @@ export default function Start() {
   }
   
   return (
-    <Button onClick={handleClick} variant='contained'>
-      ¡Empezar!
-    </Button>
+    <div style={{ marginTop: '16px' }}>
+      <Button onClick={handleClick} variant='contained'>
+        ¡Empezar!
+      </Button>
+    </div>
   )
 }
