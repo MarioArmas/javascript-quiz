@@ -37,6 +37,9 @@ dependencies:
     version: 4.4.1(@types/react@18.2.21)(react@18.2.0)
 
 devDependencies:
+  '@types/canvas-confetti':
+    specifier: ^1.6.0
+    version: 1.6.0
   '@types/react':
     specifier: ^18.2.15
     version: 18.2.21
@@ -851,6 +854,10 @@ packages:
 
   /@swc/types@0.1.4:
     resolution: {integrity: sha512-z/G02d+59gyyUb7KYhKi9jOhicek6QD2oMaotUyG+lUkybpXoV49dY9bj7Ah5Q+y7knK2jU67UTX9FyfGzaxQg==}
+    dev: true
+
+  /@types/canvas-confetti@1.6.0:
+    resolution: {integrity: sha512-Yq6rIccwcco0TLD5SMUrIM7Fk7Fe/C0jmNRxJJCLtAF6gebDkPuUjK5EHedxecm69Pi/aA+It39Ux4OHmFhjRw==}
     dev: true
 
   /@types/hast@2.3.5:

@@ -10,7 +10,7 @@ interface State {
   fetchQuestions: (limit: number) => Promise<void>
   selectAnswer: (questionId: number, answerIndex: number) => void
   goNextQuestion: () => void
-  goPreviousQstion: () => void
+  goPreviousQuestion: () => void
   reset: () => void
 }
 
